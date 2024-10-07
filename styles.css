@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('im.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.profile-image {
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid #fff;
+}
+
+/* Navigation Styling */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ca6eb1;
+}
+
+/* Section Styling */
+section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #ca6eb1;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Contact Links */
+a {
+    color: #ca6eb1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff1493;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
